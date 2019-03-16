@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormFindingLib", "FormFindingLib\FormFindingLib.vcxproj", "{5702D2C3-C365-4903-AE85-73B8F7F6ED91}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormFindingGui", "FormFindingGui\FormFindingGui.vcxproj", "{BF817FE5-97B4-49C0-812B-49A8E98B6AF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5702D2C3-C365-4903-AE85-73B8F7F6ED91} = {5702D2C3-C365-4903-AE85-73B8F7F6ED91}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormFindingCmd", "FormFindingCmd\FormFindingCmd.vcxproj", "{8F0F84A1-5EDF-4740-8268-E241D0E5018C}"
 EndProject
