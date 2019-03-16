@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{5702D2C3-C365-4903-AE85-73B8F7F6ED91}</ProjectGuid>
+    <RootNamespace>FormFindingLib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="appSettings.cpp" />
+    <ClCompile Include="Beam.cpp" />
+    <ClCompile Include="BeamProperty.cpp" />
+    <ClCompile Include="BmAngle.cpp" />
+    <ClCompile Include="BmDistLoadG.cpp" />
+    <ClCompile Include="BmDistLoadL.cpp" />
+    <ClCompile Include="BmEndRelease.cpp" />
+    <ClCompile Include="BmPreLoad.cpp" />
+    <ClCompile Include="boolFunctions.cpp" />
+    <ClCompile Include="computeSingleForceNext.cpp" />
+    <ClCompile Include="CoordSys.cpp" />
+    <ClCompile Include="exportModel.cpp" />
+    <ClCompile Include="fileLoader.cpp" />
+    <ClCompile Include="Flattening_Solver.cpp" />
+    <ClCompile Include="ForceDensitySolver.cpp" />
+    <ClCompile Include="ForceDensity_plates_converter.cpp" />
+    <ClCompile Include="FormFindingDataSet.cpp" />
+    <ClCompile Include="FreedomCase.cpp" />
+    <ClCompile Include="GraphSplit.cpp" />
+    <ClCompile Include="group.cpp" />
+    <ClCompile Include="INI_io.cpp" />
+    <ClCompile Include="Linear_Solver.cpp" />
+    <ClCompile Include="LoadCase.cpp" />
+    <ClCompile Include="LoadCaseCombination.cpp" />
+    <ClCompile Include="LoadPattern.cpp" />
+    <ClCompile Include="load_attributes.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ModelExporter.cpp" />
+    <ClCompile Include="ModelExporter_Reduced.cpp" />
+    <ClCompile Include="ModelLoader.cpp" />
+    <ClCompile Include="ModelLoader_Reduced.cpp" />
+    <ClCompile Include="ModelRenderer.cpp" />
+    <ClCompile Include="Model_Reduced.cpp" />
+    <ClCompile Include="NdForce.cpp" />
+    <ClCompile Include="NdMoment.cpp" />
+    <ClCompile Include="NdTemp.cpp" />
+    <ClCompile Include="node.cpp" />
+    <ClCompile Include="PlAngle.cpp" />
+    <ClCompile Include="Plate.cpp" />
+    <ClCompile Include="PlateProperty.cpp" />
+    <ClCompile Include="PlGlobalLoad.cpp" />
+    <ClCompile Include="PlPatchType.cpp" />
+    <ClCompile Include="PlPreLoad.cpp" />
+    <ClCompile Include="PlPressure.cpp" />
+    <ClCompile Include="PlShear.cpp" />
+    <ClCompile Include="Restraint.cpp" />
+    <ClCompile Include="RigidGroup.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Straus_Constants.cpp" />
+    <ClCompile Include="testOMP.cpp" />
+    <ClCompile Include="utilCode.cpp" />
+    <ClCompile Include="WorkModel.cpp" />
+    <ClCompile Include="workModel_Init.cpp" />
+    <ClCompile Include="workModel_optimizeForce.cpp" />
+    <ClCompile Include="workModel_Recompute.cpp" />
+    <ClCompile Include="workModel_Structure.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="appSettings.h" />
+    <ClInclude Include="Beam.h" />
+    <ClInclude Include="BeamProperty.h" />
+    <ClInclude Include="BmAngle.h" />
+    <ClInclude Include="BmDistLoadG.h" />
+    <ClInclude Include="BmDistLoadL.h" />
+    <ClInclude Include="BmEndRelease.h" />
+    <ClInclude Include="BmPreLoad.h" />
+    <ClInclude Include="BoolFunctions.h" />
+    <ClInclude Include="CoordSys.h" />
+    <ClInclude Include="fileLoader.h" />
+    <ClInclude Include="Flattening_Solver.h" />
+    <ClInclude Include="ForceDensitySolver.h" />
+    <ClInclude Include="FormFindingDataSet.h" />
+    <ClInclude Include="FreedomCase.h" />
+    <ClInclude Include="GraphSplit.h" />
+    <ClInclude Include="group.h" />
+    <ClInclude Include="INI_io.h" />
+    <ClInclude Include="Linear_Solver.h" />
+    <ClInclude Include="LoadCase.h" />
+    <ClInclude Include="LoadCaseCombination.h" />
+    <ClInclude Include="LoadCaseCombinationItem.h" />
+    <ClInclude Include="LoadPattern.h" />
+    <ClInclude Include="MainWindow.h" />
+    <ClInclude Include="MapTypesDef.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="ModelExporter.h" />
+    <ClInclude Include="ModelExporter_Reduced.h" />
+    <ClInclude Include="ModelItemsDeclare.h" />
+    <ClInclude Include="ModelItemsForwardDeclare.h" />
+    <ClInclude Include="ModelLoader.h" />
+    <ClInclude Include="ModelLoader_Reduced.h" />
+    <ClInclude Include="ModelRenderer.h" />
+    <ClInclude Include="Model_Reduced.h" />
+    <ClInclude Include="NdForce.h" />
+    <ClInclude Include="NdMoment.h" />
+    <ClInclude Include="NdTemp.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="PlAngle.h" />
+    <ClInclude Include="Plate.h" />
+    <ClInclude Include="PlateProperty.h" />
+    <ClInclude Include="PlGlobalLoad.h" />
+    <ClInclude Include="PlPatchType.h" />
+    <ClInclude Include="PlPreLoad.h" />
+    <ClInclude Include="PlPressure.h" />
+    <ClInclude Include="PlShear.h" />
+    <ClInclude Include="Restraint.h" />
+    <ClInclude Include="RigidGroup.h" />
+    <ClInclude Include="SharedFunctions.h" />
+    <ClInclude Include="SharedVariables.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Straus_Constants.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="utilCode.h" />
+    <ClInclude Include="WorkModel.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

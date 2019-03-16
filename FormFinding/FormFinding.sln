@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormFinding", "FormFinding\FormFinding.vcxproj", "{5FAEC390-8993-445D-84A1-8638E3DBF733}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormFindingLib", "FormFindingLib\FormFindingLib.vcxproj", "{5702D2C3-C365-4903-AE85-73B8F7F6ED91}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormFindingGui", "FormFindingGui\FormFindingGui.vcxproj", "{BF817FE5-97B4-49C0-812B-49A8E98B6AF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormFindingCmd", "FormFindingCmd\FormFindingCmd.vcxproj", "{8F0F84A1-5EDF-4740-8268-E241D0E5018C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FAEC390-8993-445D-84A1-8638E3DBF733}.Debug|x64.ActiveCfg = Debug|x64
+		{5FAEC390-8993-445D-84A1-8638E3DBF733}.Debug|x64.Build.0 = Debug|x64
+		{5FAEC390-8993-445D-84A1-8638E3DBF733}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FAEC390-8993-445D-84A1-8638E3DBF733}.Debug|x86.Build.0 = Debug|Win32
+		{5FAEC390-8993-445D-84A1-8638E3DBF733}.Release|x64.ActiveCfg = Release|x64
+		{5FAEC390-8993-445D-84A1-8638E3DBF733}.Release|x64.Build.0 = Release|x64
+		{5FAEC390-8993-445D-84A1-8638E3DBF733}.Release|x86.ActiveCfg = Release|Win32
+		{5FAEC390-8993-445D-84A1-8638E3DBF733}.Release|x86.Build.0 = Release|Win32
+		{5702D2C3-C365-4903-AE85-73B8F7F6ED91}.Debug|x64.ActiveCfg = Debug|x64
+		{5702D2C3-C365-4903-AE85-73B8F7F6ED91}.Debug|x64.Build.0 = Debug|x64
+		{5702D2C3-C365-4903-AE85-73B8F7F6ED91}.Debug|x86.ActiveCfg = Debug|x64
+		{5702D2C3-C365-4903-AE85-73B8F7F6ED91}.Release|x64.ActiveCfg = Release|x64
+		{5702D2C3-C365-4903-AE85-73B8F7F6ED91}.Release|x64.Build.0 = Release|x64
+		{5702D2C3-C365-4903-AE85-73B8F7F6ED91}.Release|x86.ActiveCfg = Release|x64
+		{BF817FE5-97B4-49C0-812B-49A8E98B6AF9}.Debug|x64.ActiveCfg = Debug|x64
+		{BF817FE5-97B4-49C0-812B-49A8E98B6AF9}.Debug|x64.Build.0 = Debug|x64
+		{BF817FE5-97B4-49C0-812B-49A8E98B6AF9}.Debug|x86.ActiveCfg = Debug|x64
+		{BF817FE5-97B4-49C0-812B-49A8E98B6AF9}.Release|x64.ActiveCfg = Release|x64
+		{BF817FE5-97B4-49C0-812B-49A8E98B6AF9}.Release|x64.Build.0 = Release|x64
+		{BF817FE5-97B4-49C0-812B-49A8E98B6AF9}.Release|x86.ActiveCfg = Release|x64
+		{8F0F84A1-5EDF-4740-8268-E241D0E5018C}.Debug|x64.ActiveCfg = Debug|x64
+		{8F0F84A1-5EDF-4740-8268-E241D0E5018C}.Debug|x64.Build.0 = Debug|x64
+		{8F0F84A1-5EDF-4740-8268-E241D0E5018C}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F0F84A1-5EDF-4740-8268-E241D0E5018C}.Debug|x86.Build.0 = Debug|Win32
+		{8F0F84A1-5EDF-4740-8268-E241D0E5018C}.Release|x64.ActiveCfg = Release|x64
+		{8F0F84A1-5EDF-4740-8268-E241D0E5018C}.Release|x64.Build.0 = Release|x64
+		{8F0F84A1-5EDF-4740-8268-E241D0E5018C}.Release|x86.ActiveCfg = Release|Win32
+		{8F0F84A1-5EDF-4740-8268-E241D0E5018C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A322178-93A4-4A03-BA56-8D93F69A0668}
+	EndGlobalSection
+EndGlobal
