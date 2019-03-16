@@ -118,7 +118,6 @@
     <ClCompile Include="Stage.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Straus_Constants.cpp" />
-    <ClCompile Include="testOMP.cpp" />
     <ClCompile Include="utilCode.cpp" />
     <ClCompile Include="WorkModel.cpp" />
     <ClCompile Include="workModel_Init.cpp" />

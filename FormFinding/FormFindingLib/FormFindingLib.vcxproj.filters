@@ -171,9 +171,6 @@
     <ClCompile Include="Straus_Constants.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="testOMP.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="utilCode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -21,7 +21,6 @@
 #pragma warning (disable:4267)
 //#pragma warning (disable:4018)
 
-#include "targetver.h"
 #include "SharedVariables.h"
 
 #include <iostream>
