@@ -50,10 +50,14 @@ void appSettings::checkKey(){
 		}
 	}
 
-	if (appSettings::LICENSE_CHECK_OK )
-		std::cout << "..;:FormFinding::..\n\n";
-	else
+	if (appSettings::LICENSE_CHECK_OK) {
 		std::cout << "..::FormFinding::..\n\n";
+		std::cout << "license check ok\n\n";
+	}
+	else {
+		std::cout << "..::FormFinding::..\n\n";
+		std::cout << "license check FAILED\n\n";
+	}
 }
 
 void exitWithMessage(std::string msg);
